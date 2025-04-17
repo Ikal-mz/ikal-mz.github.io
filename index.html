@@ -302,14 +302,14 @@
 
             <div class="container">
                 <div class="fillter-buttons">
-                    <button class="btn">All</button>
-                    <button class="btn">Product</button>
-                    <button class="btn">Interacting</button>
-                    <button class="btn">Web App</button>
+                    <button class="btn" data-filter="all">All</button>
+                    <button class="btn" data-filter=".product">Product</button>
+                    <button class="btn" data-filter=".inter">Interacting</button>
+                    <button class="btn" data-filter=".web">Web App</button>
                 </div>
 
                 <div class="portofolio-gallery">
-                    <div class="port-box">
+                    <div class="port-box mix product">
                         <div class="port-image">
                             <img src="img/a.png" alt="">
                         </div>
@@ -320,7 +320,7 @@
                         </div>
                     </div>
 
-                    <div class="port-box">
+                    <div class="port-box mix product">
                         <div class="port-image">
                             <img src="img/a.png" alt="">
                         </div>
@@ -331,7 +331,7 @@
                         </div>
                     </div>
 
-                    <div class="port-box">
+                    <div class="port-box mix inter">
                         <div class="port-image">
                             <img src="img/a.png" alt="">
                         </div>
@@ -342,7 +342,7 @@
                         </div>
                     </div>
 
-                    <div class="port-box">
+                    <div class="port-box mix inter">
                         <div class="port-image">
                             <img src="img/a.png" alt="">
                         </div>
@@ -353,7 +353,7 @@
                         </div>
                     </div>
 
-                    <div class="port-box">
+                    <div class="port-box mix inter">
                         <div class="port-image">
                             <img src="img/a.png" alt="">
                         </div>
@@ -364,7 +364,7 @@
                         </div>
                     </div>
 
-                    <div class="port-box">
+                    <div class="port-box mix web">
                         <div class="port-image">
                             <img src="img/a.png" alt="">
                         </div>
@@ -377,8 +377,9 @@
                 </div>
             </div>
           </section>
-
-
+    <!-- untuk data fillter di bagian img portofolio -->
+    <!-- https://github.com/patrickkunka/mixitup/blob/v3/dist/mixitup.min.js -->
+    <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
